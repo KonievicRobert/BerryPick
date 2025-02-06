@@ -1,0 +1,1 @@
+{"rc-position-target": {"height": 4.534186441512052, "distance": 4.799558636913746, "heading": -10.5, "wrist_angle": -34.5, "wrist_rotation": 71.5, "gripper": 65.0}, "rc-angle-target": {"0": 79.5, "1": 116.0, "2": 102.0, "3": 86.0, "4": 71.5}, "rc-pulse-target": {"0": 1423.0, "1": 1748.0, "2": 1633.0, "3": 1455.0, "4": 1294.0, "5": 1525.0}, "reward": 0.0, "annotation": ""}

@@ -1,0 +1,32 @@
+axes:
+  lx:
+    code: 16
+    invert: false
+    max_value: 1
+    min_value: -1
+  ly:
+    code: 17
+    invert: true
+    max_value: 1
+    min_value: -1
+  rx:
+    code: 3
+    invert: false
+    max_value: 32767
+    min_value: -32768
+  ry:
+    code: 4
+    invert: true
+    max_value: 32767
+    min_value: -32768
+buttons:
+  ddown: 304
+  dleft: 305
+  dright: 307
+  dup: 308
+  home: 314
+  select: 310
+  start: 315
+name: Logitech Gamepad F710
+product: 49695
+vendor: 1133

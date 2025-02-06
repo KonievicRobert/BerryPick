@@ -1,0 +1,13 @@
+approxeng.input == 2.5
+torch
+torchvision
+pandas
+numpy
+matplotlib
+tqdm
+pyyaml
+tensorboardX
+pyserial
+opencv-python
+opencv-contrib-python
+
