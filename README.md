@@ -86,6 +86,7 @@ python main.py
 
 
 ## Task list
+- [ ] GitIgnore setup
 - [x] AL5D robot setup
 - [x] Collect demonstrations
 - [ ] Annotate demonstrations

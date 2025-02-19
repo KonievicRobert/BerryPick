@@ -1,5 +1,5 @@
 import sys
-
+sys.path.append("/home/robert/BerryPicker/used_gits/Conv-VAE-PyTorch")
 print("Vision-based robot manipulator.\n v0.1.2 Aug 26, 2024, Lotzi Bölöni\n")
 
 print("1. Collect demonstrations interactively")
