@@ -1,0 +1,15 @@
+# ignore the pth files
+
+*.pth
+
+ 
+
+# ignore all in exp_data
+
+*/exp_data/*
+
+ 
+
+# ignore all demos
+
+*/demos/*
