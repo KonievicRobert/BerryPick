@@ -13,3 +13,13 @@
 # ignore all demos
 
 */demos/*
+
+# ignore the image files
+
+*.png
+*.jpg
+*.jpeg
+
+# ignore the annotation files
+
+*.json
