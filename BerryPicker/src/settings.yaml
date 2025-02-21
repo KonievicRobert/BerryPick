@@ -1,8 +1,8 @@
 # the location where the system dependent experiment config files are
-"experiment_system_dependent_dir": '/home/robert/BerryPicker/exp_config'
+"experiment_system_dependent_dir": '/home/robert/c24git/idk/BerryPick/BerryPicker/exp_config'
 # the location where the experiment data is put
 # the experiments's specific data will be _/className/runName
-"experiment_data": '/home/robert/BerryPicker/exp_data'
+"experiment_data": '/home/robert/c24git/idk/BerryPick/BerryPicker/exp_data'
 
 robot:
   
@@ -38,24 +38,24 @@ robot:
 demos:
 
   # Data directory for demonstrations. This is where demonstrations are saved, or loaded from in the case of replay
-  directory: "/home/robert/BerryPicker"
+  directory: "/home/robert/c24git/idk/BerryPick/BerryPicker"
 
 training:
   # Data directory for training data. This is where the training data is kept and organized 
-  directory: "/home/robert/BerryPicker"
+  directory: "/home/robert/c24git/idk/BerryPick/BerryPicker"
 
 conv_vae:
   # Directory for the checkout of the CONV_VAE project 
   # https://github.com/julian-8897/Conv-VAE-PyTorch
-  code_dir: '/home/robert/BerryPicker/used_gits/Conv-VAE-PyTorch'
+  code_dir: '/home/robert/c24git/idk/BerryPick/BerryPicker/used_gits/Conv-VAE-PyTorch'
   # The json file which is going to be used as the starting point
-  # json_template: '/home/robert/BerryPicker/src/encoding_conv_vae/config.json'
+  # json_template: '/home/robert/c24git/idk/BerryPick/BerryPicker/src/encoding_conv_vae/config.json'
   
-  code_dir: '/home/robert/BerryPicker/used_gits/Conv-VAE-PyTorch'
+  code_dir: '/home/robert/c24git/idk/BerryPick/BerryPicker/used_gits/Conv-VAE-PyTorch'
   # The name of the model that is used in the JSON file 
   model_name: 'VAE_Robot'
-  # model_dir: '/home/robert/BerryPicker/exp_data/model/VisionBasedRobotManipulator-models/Conv-VAE/'
-  model_dir: '/home/robert/BerryPicker/used_gits/Conv-VAE-PyTorch/model'
-  model_file: '/home/robert/BerryPicker/exp_data/model/VisionBasedRobotManipulator-models/Conv-VAE/checkpoint-epoch20.pth'
-  # training_data_dir: '/home/robert/BerryPicker/exp_data/vae-training-data'   
-  training_data_dir: '/home/robert/BerryPicker/used_gits/Conv-VAE-PyTorch/trainer' 
+  # model_dir: '/home/robert/c24git/idk/BerryPick/BerryPicker/exp_data/model/VisionBasedRobotManipulator-models/Conv-VAE/'
+  model_dir: '/home/robert/c24git/idk/BerryPick/BerryPicker/used_gits/Conv-VAE-PyTorch/model'
+  model_file: '/home/robert/c24git/idk/BerryPick/BerryPicker/exp_data/model/VisionBasedRobotManipulator-models/Conv-VAE/checkpoint-epoch20.pth'
+  # training_data_dir: '/home/robert/c24git/idk/BerryPick/BerryPicker/exp_data/vae-training-data'   
+  training_data_dir: '/home/robert/c24git/idk/BerryPick/BerryPicker/used_gits/Conv-VAE-PyTorch/trainer' 

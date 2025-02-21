@@ -15,7 +15,9 @@ def main():
     print(Config().values["robot"]["usb_port"])
     print(Config().values["conv_vae"]["model_dir"])
 
-    sp = sp_conv_vae.ConvVaeSensorProcessing()
+    # sp = sp_conv_vae.ConvVaeSensorProcessing()
+    
+    sp = sp_conv_vae.ConvVaeSensorProcessing("/home/robert/c24git/idk/BerryPick/BerryPicker/exp_data/model/VisionBasedRobotManipulator-models/Conv-VAE/models/VAE_Robot/0221_112834/config.json","/home/robert/c24git/idk/BerryPick/BerryPicker/exp_data/model/VisionBasedRobotManipulator-models/Conv-VAE/models/VAE_Robot/0221_112834/checkpoint-epoch40.pth")
 
 if __name__ == "__main__":
     main()
