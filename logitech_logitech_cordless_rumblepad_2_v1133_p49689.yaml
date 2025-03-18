@@ -1,0 +1,32 @@
+axes:
+  lx:
+    code: 1
+    invert: false
+    max_value: 255
+    min_value: 0
+  ly:
+    code: 0
+    invert: false
+    max_value: 255
+    min_value: 0
+  rx:
+    code: 5
+    invert: false
+    max_value: 255
+    min_value: 0
+  ry:
+    code: 2
+    invert: false
+    max_value: 255
+    min_value: 0
+buttons:
+  circle: 304
+  cross: 307
+  home: 312
+  select: 308
+  square: 306
+  start: 313
+  triangle: 305
+name: Logitech Logitech Cordless RumblePad 2
+product: 49689
+vendor: 1133
